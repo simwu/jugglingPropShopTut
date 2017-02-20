@@ -1,0 +1,133 @@
+body
+{
+	margin:				0 auto;
+	padding:			0px;
+	width:				99%;
+	max-width:			99%;
+	min-width:			99%;
+}
+header
+{
+	width:				100%;
+	text-align:			center;
+	background-color:	rgba(65,242,88,1.0);
+}
+
+section
+{
+	width:				100%;
+}
+
+/* Bootstra[ Carousel */
+.carousel-inner .item img, .carousel-inner .item a img
+{
+	/* Centers the images */
+	margin:				0em 47em 0em 47em;
+}
+
+div.carousel-caption
+{
+	font-size:			3em;
+	left:				28%;
+	top:				44%;
+	bottom:				auto;
+	color:				black;
+	padding:			0;
+	text-align:			center;
+	text-decoration:	blink;
+	display:			inline;
+}
+
+div.carousel-reviews
+{
+	font-size:			3em;
+	margin:				0 auto;
+	color:				black;
+	padding:			0;
+	text-align:			center;
+	text-decoration:	blink;
+	display:			inline;
+}
+
+section#product-categories
+{
+	margin-bottom:		0.5%;
+}
+
+button.category
+{
+	width:				16.49%;
+}
+
+button.category img
+{
+	width:				80%;
+}
+
+/* Article */
+
+article.article-text
+{
+	width:				50%;
+	float:				left;
+	font-size:			2.5em;
+	color:				rgba(74,242,186,1.0);
+	font-family:		"Arial";
+}
+
+aside#juggling-bags-list
+{
+	width:				50%;
+	float:				right;
+}
+
+div.carousel-caption .bags-caption
+{
+	font-size:			.8em;
+	float:				right;
+	color:				black;
+}
+
+.carousel-inner .item img.juggling-bags-list
+{
+	width:				25%;
+	margin:				0em 0em 0em 15em;
+}
+
+div.carousel-caption .saws-caption
+{
+	font-size:			.8em;
+	float:				right;
+	color:				black;
+}
+
+aside#chainsaws-list
+{
+	width:				50%;
+	float:				right;
+}
+
+.carousel-inner .item img.chainsaws-list
+{
+	width:				25%;
+	margin:				0em 0em 0em 13em;
+}
+
+aside#juggling-pins-list
+{
+	width:				50%;
+	float:				right;
+}
+
+.carousel-inner .item img.juggling-pins-list
+{
+	width:				25%;
+	margin:				0em 0em 0em 13em;
+}
+
+div.carousel-caption .pins-caption
+{
+	font-size:			.8em;
+	float:				right;
+	color:				black;
+}
