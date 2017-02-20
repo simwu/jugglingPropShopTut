@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-3.3.6.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>J-Prop Shop</title>
+</head>
+<body>
+	<header>
+		<img id="logo" src="img/mylogo.png" alt="The J-Prop Shop" usemap="#nav_maps"/>
+		<map name="nav_maps">
+			<area shape="rect" coords="0,0,41,13" href="index.html" alt="Home Page" />
+			<area shape="rect" coords="115,0,173,13" href="#" alt="Contacts Page" />
+			<area shape="rect" coords="248,0,283,20" href="#" alt="About Page" />
+		</map>
+	</header>
+	
+	<section>
+		<article class="article-text">
+			<p>
+				Simon used these!  He learned how to juggle with one try.
+				The lesson only took him half a minute to finish.  You can 
+				learn just as fast on how to juggle by using these chainsaws
+				he used.  Plus, they're a BARGAIN!
+			</p>
+		</article>	
+	</section>
+	
+	<aside id="chainsaws-list" class="carousel slide" data-ride="carousel">
+
+		<div class="carousel-inner" role="listbox">
+			
+			<!-- Slide 0 (active) -->
+			<div class="item active">
+				<img class="chainsaws-list" src="img/chainsaw.png" alt="Chainsaws">
+				<div class="carousel-caption">
+					<h3 class="saws-caption">A bargain of $899.99!</h3>
+				</div>
+			</div>
+			
+			<!-- Slide 1 -->
+			<div class="item">
+				<img class="chainsaws-list" src="img/chainsaw-2.png" alt="Chainsaws 2">
+				<div class="carousel-caption">
+					<h3 class="saws-caption">A bargain of $999.99!</h3>
+				</div>
+			</div>
+			
+			<!-- Slide 2 -->
+			<div class="item">
+				<img class="chainsaws-list" src="img/chainsaw-3.png" alt="Chainsaws 3">
+				<div class="carousel-caption">
+					<h3 class="saws-caption">A bargain of $99.99!</h3>
+				</div>
+			</div>
+		</div>
+		
+		<a class="left carousel-control" href="#chainsaws-list" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#chainsaws-list" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</aside>
+</body>

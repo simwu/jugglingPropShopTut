@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-3.3.6.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>J-Prop Shop</title>
+</head>
+<body>
+	<header>
+		<img id="logo" src="img/mylogo.png" alt="The J-Prop Shop" usemap="#nav_maps"/>
+		<map name="nav_maps">
+			<area shape="rect" coords="0,0,41,13" href="index.html" alt="Home Page" />
+			<area shape="rect" coords="115,0,173,13" href="#" alt="Contacts Page" />
+			<area shape="rect" coords="248,0,283,20" href="#" alt="About Page" />
+		</map>
+	</header>
+	
+	<!-- Bootstrap Drop-Down Menu -->
+	<section class="containter">
+		<div class="dropdown">
+			<button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Products
+				<span class="caret"></span>	
+			</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Select a Product</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Balls</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Bags</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Chain Saws</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Clubs</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Knives</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Plates</a></li>	
+			</ul>
+		</div>
+	</section>
+	
+	<!-- Bootstrap Carousel Specials -->
+	<section id="specials" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#specials" data-slide-to="0" class="active"></li>
+			<li data-target="#specials" data-slide-to="1"></li>
+			<li data-target="#specials" data-slide-to="2"></li>
+			<li data-target="#specials" data-slide-to="3"></li>
+			<li data-target="#specials" data-slide-to="4"></li>
+			<li data-target="#specials" data-slide-to="5"></li>
+		</ol>
+		
+		<div class="carousel-inner" role="listbox">
+			
+			<!-- Slide 0 (active) -->
+			<div class="item active">
+				<img src="img/juggling-bags.png" alt="Juggling Bags" usemap="#juggling-bags">
+				<map name="juggling-bags">
+					<area shape="rect" coords="17,8,230,203" href="#" alt="Home Page" />
+				</map>
+				<!-- Slide caption -->
+				<div class="carousel-caption" right-caption text-right>
+					<h3>Simon used these!</h3>
+				</div>
+			</div>
+			
+			<!-- Slide 1 -->
+			<div class="item">
+				<img src="img/juggling-balls.png" alt="Juggling Balls" usemap="#juggling-balls">
+				<map name="juggling-balls">
+					<area shape="rect" coords="0,0,230,207" href="#" alt="Home Page" />
+				</map>
+				<!-- Slide caption -->
+				<div class="carousel-caption" right-caption text-right>
+					<h3>Simon also used these!</h3>
+				</div>
+			</div>
+			
+			<!-- Slide 2 -->
+			<div class="item">
+				<img src="img/juggling-clubs.png" alt="Juggling Clubs" usemap="#juggling-clubs">
+				<map name="juggling-clubs">
+					<area shape="rect" coords="0,0,228,208" href="#" alt="Home Page" />
+				</map>
+				<!-- Slide caption -->
+				<div class="carousel-caption" right-caption text-right>
+					<h3>And these!</h3>
+				</div>
+			</div>
+			
+			<!-- Slide 3 -->
+			<div class="item">
+				<img src="img/juggling-pins.png" alt="Juggling Pins" usemap="#juggling-pins">
+				<map name="juggling-pins">
+					<area shape="rect" coords="2,0,239,206" href="#" alt="Home Page" />
+				</map>
+				<!-- Slide caption -->
+				<div class="carousel-caption" right-caption text-right>
+					<h3>These as well!</h3>
+				</div>
+			</div>
+			
+			<!-- Slide 4 -->
+			<div class="item">
+				<img src="img/juggling-plates.png" alt="Juggling Plates" usemap="#juggling-plates">
+				<map name="juggling-plates">
+					<area shape="rect" coords="2,8,239,208" href="#" alt="Home Page" />
+				</map>
+				<!-- Slide caption -->
+				<div class="carousel-caption" right-caption text-right>
+					<h3>Can't forget these!</h3>
+				</div>
+			</div>
+			
+			<!-- Slide 5 -->
+			<div class="item">
+				<img src="img/chainsaw.png" alt="Juggling Chainsaws" usemap="#juggling-chainsaws">
+				<map name="juggling-chainsaws">
+					<area shape="rect" coords="5,3,395,202" href="#" alt="Home Page" />
+				</map>
+				<!-- Slide caption -->
+				<div class="carousel-caption" right-caption text-right>
+					<h3>These were his favorite!</h3>
+				</div>
+			</div>
+		</div>
+		
+		<a class="left carousel-control" href="#specials" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#specials" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</section>
+	
+	<!-- Bootstrap Carousel Reviews -->
+	<section id="reviews" class="carousel slide" data-ride="carousel">
+
+		<div class="carousel-inner" role="listbox">
+			
+			<!-- Slide 0 (active) -->
+			<div class="item active">
+				<div class="carousel-reviews">
+					<h3>"THESE WERE USED BY SIMON AND HE'S AWESOME!"</h3>
+					<h4>- Andre Javier</h4>
+				</div>
+			</div>
+			
+			<!-- Slide 1 -->
+			<div class="item">
+				<div class="carousel-reviews">
+					<h3>"I can feel the effort he put into these!""</h3>
+					<h4>- H.T.</h4>
+				</div>
+			</div>
+			
+			<!-- Slide 2 -->	
+			<div class="item">
+				<div class="carousel-reviews">
+					<h3>"These objects allowed me to learn juggling in 10 seconds!"</h3>
+					<h4>- Anonymous</h4>
+				</div>
+			</div>
+			
+			<!-- Slide 3 -->
+			<div class="item">
+				<div class="carousel-reviews">
+					<h3>"I walked on water after using these!"</h3>
+					<h4>- Jesus</h4>
+				</div>
+			</div>
+		</div>
+		
+		<a class="left carousel-control" href="#reviews" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#reviews" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</section>
+	
+	<!-- Product Categories -->
+	<section id="product-categories">
+		<button type="submit" name="bags-button" id="bags-button" class="category" value="bags-category">
+			<p>
+				Juggling Bags
+			</p>
+			<img src="img/juggling-bags.png" alt="Juggling Bags">
+		</button>
+		<button type="submit" name="balls-button" id="balls-button" class="category" value="balls-category">
+			<p>
+				Juggling Balls
+			</p>
+			<img src="img/juggling-balls.png" alt="Juggling Balls">
+		</button>
+		<button type="submit" name="clubs-button" id="clubss-button" class="category" value="clubs-category">
+			<p>
+				Juggling Clubs
+			</p>
+			<img src="img/juggling-clubs.png" alt="Juggling Clubs">
+		</button>
+		<button type="submit" name="pins-button" id="pins-button" class="category" value="pins-category">
+			<p>
+				Juggling Pins
+			</p>
+			<img src="img/juggling-pins.png" alt="Juggling Pins">
+		</button>
+		<button type="submit" name="plates-button" id="plates-button" class="category" value="plates-category">
+			<p>
+				Juggling Plates
+			</p>
+			<img src="img/juggling-plates.png" alt="Juggling Plates">
+		</button>
+		<button type="submit" name="chainsaws-button" id="chainsaws-button" class="category" value="chainsaw-category">
+			<p>
+				Juggling Chainsaws
+			</p>
+			<img src="img/chainsaw.png" alt="Juggling Chainsaws">
+		</button>
+	</section>
+</body>
